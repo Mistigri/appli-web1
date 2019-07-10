@@ -1,0 +1,5 @@
+package com.wha.services;
+
+public class HelloWorldService {
+
+}

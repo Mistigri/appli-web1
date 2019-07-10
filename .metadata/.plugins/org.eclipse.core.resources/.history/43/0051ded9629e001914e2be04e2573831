@@ -1,0 +1,19 @@
+package com.wha.test;
+
+import com.wha.services.HelloWorldService;
+
+public class Hello {
+	@SuppressWarnings ("resource")
+	public static void main(String[] args) {
+		ApplicationContext context = ClassPathXmlApplicationContext("applicationContext.xml");
+		HelloWorldService service = (HelloWorldService) context.getBean("helloWorldService");
+		String message = service.sayHello();
+		System.out.println(message);
+		
+		//set a new name
+		service.setName("Spring");
+		message = service.sayHello();
+		System.out.println(message);
+	}
+
+}

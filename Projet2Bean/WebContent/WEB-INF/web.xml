@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+	xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+	version="3.1">
+	<display-name>Projet2Bean</display-name>
+	<welcome-file-list>
+		<welcome-file>index.html</welcome-file>
+		<welcome-file>index.htm</welcome-file>
+		<welcome-file>index.jsp</welcome-file>
+		<welcome-file>default.html</welcome-file>
+		<welcome-file>default.htm</welcome-file>
+		<welcome-file>default.jsp</welcome-file>
+	</welcome-file-list>
+
+	<!--Utilisation d'une chaîne paramétrée sur mySQL: -->
+	<context-param>
+		<param-name>dbUser</param-name>
+		<param-value>root</param-value>
+	</context-param>
+	<context-param>
+		<param-name>dbPass</param-name>
+		<param-value></param-value>
+	</context-param>
+	<context-param>
+		<param-name>dbURL</param-name>
+		<param-value>jdbc:mysql://localhost:3306/basesql</param-value>
+	</context-param><!--Limiter les requêtes à 100 lignes : -->
+	<context-param>
+		<param-name>javax.servlet.jsp.jstl.sql.maxRows</param-name>
+		<param-value>100</param-value>
+	</context-param>
+	<jsp-config>
+		<taglib>
+			<taglib-uri>/exemples</taglib-uri>
+			<taglib-location>/WEB-INF/tld/bonjour.tld</taglib-location>
+		</taglib>
+	</jsp-config>
+</web-app>

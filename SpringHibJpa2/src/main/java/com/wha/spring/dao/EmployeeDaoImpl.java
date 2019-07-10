@@ -1,0 +1,28 @@
+package com.wha.spring.dao;
+import java.util.List;
+
+import org.springframework.stereotype.Repository;
+
+import com.wha.spring.model.Employee;
+
+@Repository("employeeDao")
+public class EmployeeDaoImpl extends AbstractDao implements EmployeeDao {
+
+	public void saveEmployee(Employee employee) {
+		persist(employee);
+	}
+
+	public void updateEmployee(Employee employee){
+		getSession().update(employee);
+	}
+	
+	public List<Employee> findAllEmployees() {
+		return null;
+	}
+	public void deleteEmployeeBySsn(String ssn) {
+		
+	}
+	public Employee findBySsn(String ssn){
+		return null;		
+	}
+}

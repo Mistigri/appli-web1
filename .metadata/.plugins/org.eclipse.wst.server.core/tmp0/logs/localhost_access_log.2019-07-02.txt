@@ -1,0 +1,3 @@
+127.0.0.1 - - [02/Jul/2019:16:49:21 +0200] "GET / HTTP/1.1" 404 968
+0:0:0:0:0:0:0:1 - - [02/Jul/2019:16:49:21 +0200] "GET /FirstRestWebService/ HTTP/1.1" 404 1008
+0:0:0:0:0:0:0:1 - - [02/Jul/2019:16:49:31 +0200] "GET /FirstRestWebService/rest/hello HTTP/1.1" 200 12

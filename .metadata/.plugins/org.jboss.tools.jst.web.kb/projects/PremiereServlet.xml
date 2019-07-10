@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kb-project>
+ <depends-on-projects/>
+ <used-by-projects/>
+ <paths>
+  <path value="C:/Users/gk/apache-tomcat-8.0.0-RC1/lib/catalina.jar"/>
+  <path value="C:/Users/gk/apache-tomcat-8.0.0-RC1/lib/tomcat-i18n-fr.jar"/>
+  <path value="C:/Users/gk/apache-tomcat-8.0.0-RC1/lib/catalina-tribes.jar"/>
+  <path value="C:/Users/gk/apache-tomcat-8.0.0-RC1/lib/catalina-ha.jar"/>
+  <path value="C:/Users/gk/apache-tomcat-8.0.0-RC1/lib/jasper.jar"/>
+  <path value="C:/Users/gk/apache-tomcat-8.0.0-RC1/lib/tomcat-websocket.jar"/>
+  <path value="C:/Users/gk/apache-tomcat-8.0.0-RC1/lib/tomcat-coyote.jar"/>
+  <path value="C:/Users/gk/apache-tomcat-8.0.0-RC1/lib/tomcat-jdbc.jar"/>
+  <path value="C:/Users/gk/apache-tomcat-8.0.0-RC1/lib/tomcat-spdy.jar"/>
+  <path value="C:/Users/gk/apache-tomcat-8.0.0-RC1/lib/tomcat-jni.jar"/>
+  <path value="C:/Users/gk/apache-tomcat-8.0.0-RC1/lib/tomcat-util.jar"/>
+  <path value="C:/Users/gk/apache-tomcat-8.0.0-RC1/lib/el-api.jar"/>
+  <path value="C:/Users/gk/apache-tomcat-8.0.0-RC1/lib/ecj-4.2.2.jar"/>
+  <path value="C:/Users/gk/apache-tomcat-8.0.0-RC1/lib/jsp-api.jar"/>
+  <path value="C:/Users/gk/apache-tomcat-8.0.0-RC1/lib/tomcat-dbcp.jar"/>
+  <path value="C:/Users/gk/apache-tomcat-8.0.0-RC1/lib/websocket-api.jar"/>
+  <path value="C:/Users/gk/apache-tomcat-8.0.0-RC1/lib/catalina-ant.jar"/>
+  <path value="C:/Users/gk/apache-tomcat-8.0.0-RC1/lib/jasper-el.jar"/>
+  <path value="C:/Users/gk/apache-tomcat-8.0.0-RC1/lib/tomcat-api.jar"/>
+  <path value="C:/Users/gk/apache-tomcat-8.0.0-RC1/lib/annotations-api.jar"/>
+  <path value="C:/Users/gk/apache-tomcat-8.0.0-RC1/lib/catalina-storeconfig.jar"/>
+  <path value="C:/Users/gk/apache-tomcat-8.0.0-RC1/lib/tomcat-i18n-ja.jar"/>
+  <path value="C:/Users/gk/apache-tomcat-8.0.0-RC1/lib/servlet-api.jar"/>
+  <path value="C:/Users/gk/apache-tomcat-8.0.0-RC1/lib/tomcat-i18n-es.jar"/>
+ </paths>
+ <validation>
+  <core validator-id="jsf-verification"/>
+  <core validator-id="jboss.cdi.core"/>
+  <el/>
+ </validation>
+ <aliases/>
+ <includes/>
+ <uris/>
+</kb-project>

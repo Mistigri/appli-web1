@@ -1,0 +1,5 @@
+package com.wha.spring.configuration;
+
+public class HibernateConfiguration {
+
+}

@@ -1,0 +1,30 @@
+package com.test;
+
+
+
+public class DemoJpa {
+
+	public static void main(String[] args) {
+		
+		//1: ouverture unité de travail JPA
+		EntityManagerFactory emf = Persistence.createEntityManagerFactory("demojpa-pu");
+		EntityManager em = emf.createEntityManager();
+		
+		//2: ouverture transaction
+		EntityTransaction tx = em.getTransaction();
+		tx.begin();
+		
+		//3 : instanciation objet métier
+		Formation formation = new Formation("Hibernate");
+		
+		//4 : persistence objet/relationnel : création d'un enregistrement en base
+		em.persist(formation);
+		
+		//5 : fermeture transaction
+		tx.commit();
+		
+		//6 : fermeture unité de travail JPA
+		em.close();
+		emf.close();
+	}
+}

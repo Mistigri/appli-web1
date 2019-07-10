@@ -1,0 +1,22 @@
+<%@page import="service.BanqueServiceProxy"%>
+<%
+	double montant = 0;
+	double resultat = 0;
+	if (request.getParameter("montant") != null) {
+		montant = Double.parseDouble(request.getParameter("montant"));
+		BanqueServiceProxy service = new BanqueServiceProxy();
+		resultat = service.conversionEuroToDL(montant);
+	}
+%>
+<html>
+<body>
+	<form action="banque.jsp">
+		Montant : <input type="text" name="montant" value="<%=montant%>">
+		<input type="submit" value="ok">
+	</form>
+	<%=montant%>
+	en Euro est égale à
+	<%=resultat%>
+	en $
+</body>
+</html>

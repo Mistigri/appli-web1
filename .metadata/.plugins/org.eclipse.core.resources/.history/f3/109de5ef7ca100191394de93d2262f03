@@ -1,0 +1,49 @@
+package com.wha.spring.jdbc.dao;
+
+import java.sql.Connection;
+import java.sql.SQLException;
+
+import javax.sql.DataSource;
+
+import com.mysql.jdbc.PreparedStatement;
+import com.wha.spring.jdbc.model.Employee;
+
+public class EmployeeDAOImpl implements CrudDAO{
+	
+	private DataSource dataSource;
+	
+	public void setDataSource(DataSource dataSource) {
+		this.dataSource = dataSource;
+	}
+	
+	public void save(Employee employee) {
+        String query = "INSERT INTO employee (ID, NAME, ROLE) VALUES (?, ?, ?)";
+        Connection con = null;
+        PreparedStatement ps = null;
+  
+        try {
+            con = dataSource.getConnection();
+ps = (PreparedStatement) con.prepareStatement(query);
+            ps.setInt(1, employee.getId());
+            ps.setString(2, employee.getName());
+            ps.setString(3, employee.getRole());
+            int out = ps.executeUpdate();
+            if(out != 0) {
+            	System.out.println("Employee saved with id = "+ employee.getId());
+            }
+            else {
+            	System.out.println("Employee save failed with id = " + employee.getId());
+            }  
+        } catch (SQLException e) {
+            e.printStackTrace();
+        } finally {
+        	try {
+        	ps.close();
+                    con.close();
+        }
+        	catch (SQLException e){
+                e.printStackTrace();
+        	}
+	}
+	}
+}

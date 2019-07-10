@@ -1,0 +1,42 @@
+1562070250693	Delete element
+1562070957609	Move 'api' to 'lib'
+1562070961491	Move 'ext' to 'lib'
+1562070976351	Move 'lib' to 'lib'
+1562070986932	Delete element
+1562071026604	Move 'jakarta.ws.rs-api-2.1.5.jar' to 'lib'
+1562071055711	Move 'aopalliance-repackaged-2.5.0.jar' to 'lib'
+1562071058497	Move 'hk2-api-2.5.0.jar' to 'lib'
+1562071061339	Move 'hk2-locator-2.5.0.jar' to 'lib'
+1562071063232	Move 'hk2-utils-2.5.0.jar' to 'lib'
+1562071066083	Move 'jakarta.activation-api-1.2.1.jar' to 'lib'
+1562071068268	Move 'jakarta.annotation-api-1.3.4.jar' to 'lib'
+1562071070072	Move 'jakarta.inject-2.5.0.jar' to 'lib'
+1562071071962	Move 'jakarta.json-1.1.5.jar' to 'lib'
+1562071074800	Move 'jakarta.json-api-1.1.5.jar' to 'lib'
+1562071076462	Move 'jakarta.json.bind-api-1.0.1.jar' to 'lib'
+1562071078162	Move 'jakarta.persistence-api-2.2.2.jar' to 'lib'
+1562071079719	Move 'jakarta.servlet-api-4.0.2.jar' to 'lib'
+1562071082002	Move 'jakarta.ws.rs-api-2.1.5-sources.jar' to 'lib'
+1562071083950	Move 'jakarta.xml.bind-api-2.3.2.jar' to 'lib'
+1562071087865	Move 'javassist-3.22.0-GA.jar' to 'lib'
+1562071089782	Move 'org.osgi.core-4.2.0.jar' to 'lib'
+1562071092028	Move 'osgi-resource-locator-1.0.1.jar' to 'lib'
+1562071093886	Move 'validation-api-2.0.1.Final.jar' to 'lib'
+1562071096409	Move 'yasson-1.0.3.jar' to 'lib'
+1562071102744	Delete element
+1562071106923	Delete element
+1562071156553	Move 'jersey-client.jar' to 'lib'
+1562071158518	Move 'jersey-common.jar' to 'lib'
+1562071160276	Move 'jersey-container-servlet-core.jar' to 'lib'
+1562071162293	Move 'jersey-container-servlet.jar' to 'lib'
+1562071164353	Move 'jersey-hk2.jar' to 'lib'
+1562071165896	Move 'jersey-media-jaxb.jar' to 'lib'
+1562071167756	Move 'jersey-media-json-binding.jar' to 'lib'
+1562071169463	Move 'jersey-media-sse.jar' to 'lib'
+1562071171325	Move 'jersey-server.jar' to 'lib'
+1562071174950	Delete element
+1562072464932	Copy compilation unit
+1562072762181	Delete element
+1562077040458	Copy folder
+1562077080463	Copy files
+1562144950317	Copy files

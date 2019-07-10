@@ -1,0 +1,5 @@
+INDEX VERSION 1.127
+C:\Users\gk\Documents\stages java\appli-web1\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1597900552.index
+\ClientBanqueDynamic\src
+C:\Users\gk\Documents\stages java\appli-web1\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\828826578.index
+\Projet2Bean\src

@@ -1,0 +1,44 @@
+package service;
+
+import javax.ws.rs.*;
+import javax.ws.rs.core.MediaType;
+
+@Path("/books")
+public class BookResource {
+	
+	@GET
+	@Produces(MediaType.TEXT_PLAIN)
+	public String getBooks() {
+		return "Cuisine et moi / JavaEE 18 ";
+	}
+	@POST
+	public String createBook(String livre) {
+		return livre;
+	}
+	@GET
+	@Path("{id}")
+	public String getBookById(@PathParam("id") int id) {
+		return "Java for life " + id ;
+	}
+	
+	@PUT
+	@Path("{id}")
+	public void updateBookById(@PathParam("id") int id) {
+		
+	}
+	@DELETE
+	@Path("{id}")
+	public void deleteBookById(@PathParam("id") int id){
+		
+	}
+	@GET
+	@Path("queryparameters")
+	public String getQueryParameterBook(
+			@DefaultValue("all")@QueryParam("name") String name,
+			@DefaultValue("?-???????-?")@QueryParam("isbn") String isbn,
+			@DefaultValue("false") @QueryParam("isExtended") boolean isExtended) {
+		return name + " " +isbn + " " + isExtended;
+	}
+	
+	
+}
